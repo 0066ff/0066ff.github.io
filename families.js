@@ -13,6 +13,9 @@ function draw() {
     // Set the "drawn" size of the canvas
     canvas.style.width = rect.width + 'px';
     canvas.style.height = rect.height + 'px';
+    // 色
+    ctx.fillStyle = "#00060f";
+    ctx.strokeStyle = "#00060f";
     // 枠
     ctx.strokeRect( 40, 10, 50, 40);
     ctx.strokeRect(160, 10, 50, 40);
