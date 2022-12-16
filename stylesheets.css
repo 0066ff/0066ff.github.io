@@ -34,3 +34,9 @@ h3 {
   font-size: 110%;
   margin: 0px;
 }
+
+#canvas_550 {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
